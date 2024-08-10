@@ -43,9 +43,9 @@
 	avion_id				  integer
 			)
 
-		create table grupo04.pasajero
+	    create table grupo04.pasajero
 (
-	pasajero_id         integer not null identity,
+    pasajero_id         integer not null identity,
 	nombre              nvarchar(400),  
 	tipo_documento      nvarchar(400),
 	numero_documento    integer,
@@ -53,7 +53,7 @@
 	nacionalidad        nvarchar(400),
 			)
 
-		create table grupo04.boletos
+	    create table grupo04.boletos
 (
 	boleto_id			integer not null identity,
 	vuelo_id			integer not null,
@@ -72,29 +72,29 @@
 
 ### PRIMARY KEY
 
-alter table grupo04.aeropuertos add constraint pk_grupo04_aeropuertos
-primary key (aeropuerto_id)
+    alter table grupo04.aeropuertos add constraint pk_grupo04_aeropuertos
+    primary key (aeropuerto_id)
 
-alter table grupo04.vuelo_mercado_nacional add constraint pk_grupo04_vuelo_mercado_nacional
-primary key (periodo_id)
+    alter table grupo04.vuelo_mercado_nacional add constraint pk_grupo04_vuelo_mercado_nacional
+    primary key (periodo_id)
 
-alter table grupo04.vuelo_detalle add constraint pk_grupo04_vuelo_detalle
+    alter table grupo04.vuelo_detalle add constraint pk_grupo04_vuelo_detalle
 primary key (vuelo_id)
 
-alter table grupo04.aviones add constraint pk_grupo04_aviones
-primary key (avion_id)
+    alter table grupo04.aviones add constraint pk_grupo04_aviones
+    primary key (avion_id)
 
-alter table grupo04.vuelo_numero add constraint pk_grupo04_vuelo_numero
-primary key (vuelo_numero_id)
+    alter table grupo04.vuelo_numero add constraint pk_grupo04_vuelo_numero
+    primary key (vuelo_numero_id)
 
-alter table grupo04.pasajero add constraint pk_grupo04_pasajero
-primary key (pasajero_id)
+    alter table grupo04.pasajero add constraint pk_grupo04_pasajero
+    primary key (pasajero_id)
 
-alter table grupo04.boletos add constraint pk_grupo04_boletos
-primary key (boleto_id)
+    alter table grupo04.boletos add constraint pk_grupo04_boletos
+    primary key (boleto_id)
 
-alter table grupo04.tipo_cabina add constraint pk_grupo04_tipo_cabina
-primary key (tipo_cabina_id)
+    alter table grupo04.tipo_cabina add constraint pk_grupo04_tipo_cabina
+    primary key (tipo_cabina_id)
 
 ### FOREIGN KEY
 
