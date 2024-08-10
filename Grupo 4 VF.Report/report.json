@@ -1,0 +1,884 @@
+{
+  "config": "{\"version\":\"5.54\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY22SU03\",\"version\":\"5.32\",\"type\":2}},\"activeSectionIndex\":14,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"exportDataMode\":1,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "filters": "[{\"name\":\"Filter6d2f7df21382071b8477\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Tiempo\"}},\"Property\":\"anio\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"2023L\"}}],[{\"Literal\":{\"Value\":\"2024L\"}}],[{\"Literal\":{\"Value\":\"2025L\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+  "layoutOptimization": 0,
+  "pods": [
+    {
+      "boundSection": "a4ad0f0d06aed5e2cc26",
+      "config": "{\"acceptsFilterContext\":1}",
+      "name": "Pod"
+    }
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY22SU03",
+            "path": "BaseThemes/CY22SU03.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "IMAGEN16.077987153716604416.JPG",
+            "path": "IMAGEN16.077987153716604416.JPG",
+            "type": 100
+          },
+          {
+            "name": "Latam-logo_-v_(Indigo).svg06651026062587828.png",
+            "path": "Latam-logo_-v_(Indigo).svg06651026062587828.png",
+            "type": 100
+          },
+          {
+            "name": "latam-aruba1-26012424929251898099936.jpg",
+            "path": "latam-aruba1-26012424929251898099936.jpg",
+            "type": 100
+          },
+          {
+            "name": "latam-aruba1-26012435613446002784377.jpg",
+            "path": "latam-aruba1-26012435613446002784377.jpg",
+            "type": 100
+          },
+          {
+            "name": "latam-aruba1-2601243843476641209387.jpg",
+            "path": "latam-aruba1-2601243843476641209387.jpg",
+            "type": 100
+          },
+          {
+            "name": "latam-aruba1-26012441967912011950625.jpg",
+            "path": "latam-aruba1-26012441967912011950625.jpg",
+            "type": 100
+          },
+          {
+            "name": "latam-aruba1-2601246626431728053934.jpg",
+            "path": "latam-aruba1-2601246626431728053934.jpg",
+            "type": 100
+          },
+          {
+            "name": "latam-aruba1-2601248478811896675069.jpg",
+            "path": "latam-aruba1-2601248478811896675069.jpg",
+            "type": 100
+          },
+          {
+            "name": "latam-aruba1-2601248737920697114026.jpg",
+            "path": "latam-aruba1-2601248737920697114026.jpg",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-26012424929251898099936.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}]}}",
+      "displayName": "Reporte 10",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "121cfaa906c2ed02a664",
+      "ordinal": 14,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"017ab75f27e2be8a0683\",\"layouts\":[{\"id\":0,\"position\":{\"x\":64.94271685761048,\"y\":197.62138570649208,\"z\":2000,\"width\":148.04146208401528,\"height\":152.23131478450625,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Tiempo.anio\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"},\"Name\":\"Tiempo.anio\",\"NativeReferenceName\":\"anio\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"2024L\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Año'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 152.23,
+          "width": 148.04,
+          "x": 64.94,
+          "y": 197.62,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"1a2a735e40d49040dc82\",\"layouts\":[{\"id\":0,\"position\":{\"x\":127.60736196319019,\"y\":81.79959100204499,\"z\":1000,\"width\":1024.7852760736196,\"height\":69.36605316973416,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿Cuál es el top 5 de destinos con mayor boletos vendidos a mujeres en junio del 2024 en porcentaje?\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.37,
+          "width": 1024.79,
+          "x": 127.61,
+          "y": 81.80,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"bfa9194ff7937e815f58\",\"layouts\":[{\"id\":0,\"position\":{\"x\":250.94224924012158,\"y\":197.4468085106383,\"z\":3000,\"width\":987.2340425531916,\"height\":486.32218844984806,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"grupo04 aeropuertos.ciudad\",\"active\":true}],\"Y\":[{\"queryRef\":\"Medidas.Boletos_COUNT\"}],\"Series\":[{\"queryRef\":\"grupo04 pasajero.sexo\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0},{\"Name\":\"g\",\"Entity\":\"grupo04 pasajero\",\"Type\":0},{\"Name\":\"g2\",\"Entity\":\"grupo04 aeropuertos\",\"Type\":0}],\"Select\":[{\"Arithmetic\":{\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"}},\"Scope\":[]}},\"Operator\":3},\"Name\":\"Medidas.Boletos_COUNT\",\"NativeReferenceName\":\"%Boletos vendidos\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"sexo\"},\"Name\":\"grupo04 pasajero.sexo\",\"NativeReferenceName\":\"Sexo\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g2\"}},\"Property\":\"ciudad\"},\"Name\":\"grupo04 aeropuertos.ciudad\",\"NativeReferenceName\":\"ciudad\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Arithmetic\":{\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"}},\"Scope\":[]}},\"Operator\":3}}}]},\"columnProperties\":{\"grupo04 pasajero.sexo\":{\"displayName\":\"Sexo\"},\"Medidas.Boletos_COUNT\":{\"displayName\":\"%Boletos vendidos\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"borderShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}}}},{\"properties\":{},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"ribbonBands\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"zoom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"grupo04 vuelo_numero\"}},\"Property\":\"aeropuerto_destino_id\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"g1\",\"Entity\":\"grupo04 vuelo_numero\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g1\"}},\"Property\":\"aeropuerto_destino_id\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"g1\",\"Entity\":\"grupo04 vuelo_numero\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g1\"}},\"Property\":\"aeropuerto_destino_id\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":1,\"isHiddenInViewMode\":false},{\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_COUNT\"}},\"type\":\"Advanced\",\"howCreated\":1,\"isHiddenInViewMode\":false},{\"name\":\"Filter4035044416c2669a5b5d\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"grupo04 pasajero\"}},\"Property\":\"sexo\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"grupo04 pasajero\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"sexo\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'F'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{},\"isHiddenInViewMode\":false}]",
+          "height": 486.32,
+          "width": 987.23,
+          "x": 250.94,
+          "y": 197.45,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"ed25a1a982e00876ac99\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-2601248478811896675069.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}]}}",
+      "displayName": "Reporte 4",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "53e774e210cb894a0c61",
+      "ordinal": 8,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"359b4d95b6d095e0e972\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"459dd4960389c8008e05\",\"layouts\":[{\"id\":0,\"position\":{\"x\":52.351738241308794,\"y\":326.5439672801636,\"z\":4000,\"width\":258.4867075664622,\"height\":380.8588957055215,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Tiempo.mes_nombre\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"mes_nombre\"},\"Name\":\"Tiempo.mes_nombre\",\"NativeReferenceName\":\"mes_nombre\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Mes'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 380.86,
+          "width": 258.49,
+          "x": 52.35,
+          "y": 326.54,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"80443e19a0ea4095c98e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":354.4329896907216,\"y\":201.03092783505153,\"z\":2000,\"width\":885.1546391752577,\"height\":447.83505154639175,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Tiempo.mes_nombre\",\"active\":true}],\"Y\":[{\"queryRef\":\"Medidas.Boletos_COUNT\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"},\"Name\":\"Medidas.Boletos_COUNT\",\"NativeReferenceName\":\"Boletos_COUNT\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"mes_nombre\"},\"Name\":\"Tiempo.mes_nombre\",\"NativeReferenceName\":\"mes_nombre\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'InsideCenter'\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"zoom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Boletos vendidos'\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000D\"}}}}}],\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Mes'\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Conditional\":{\"Cases\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_COUNT\"}},\"Right\":{\"Literal\":{\"Value\":\"4277D\"}}}},\"Value\":{\"Literal\":{\"Value\":\"'#a0a7d8'\"}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_COUNT\"}},\"Right\":{\"Literal\":{\"Value\":\"4278D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_COUNT\"}},\"Right\":{\"Literal\":{\"Value\":\"5000D\"}}}}}},\"Value\":{\"Literal\":{\"Value\":\"'#12239E'\"}}}]}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"' Junio 2024'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 447.84,
+          "width": 885.15,
+          "x": 354.43,
+          "y": 201.03,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"a6b6368cb89e777d5187\",\"layouts\":[{\"id\":0,\"position\":{\"x\":52.351738241308794,\"y\":197.6278118609407,\"z\":3000,\"width\":258.4867075664622,\"height\":116.48261758691207,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Tiempo.anio\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"},\"Name\":\"Tiempo.anio\",\"NativeReferenceName\":\"anio\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"2024L\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Año'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 116.48,
+          "width": 258.49,
+          "x": 52.35,
+          "y": 197.63,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"c6ec7740a400b331577b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":127.60736196319019,\"y\":81.79959100204499,\"z\":1000,\"width\":1024.7852760736196,\"height\":69.36605316973416,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿ En que mes del año 2024 LATAM vendió más boletos?\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.37,
+          "width": 1024.79,
+          "x": 127.61,
+          "y": 81.80,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-26012441967912011950625.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}],\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"368L\"}}}}}]}}",
+      "displayName": "Reporte de Indicador",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "5b4961d37ce285358bb8",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"00a2f00e8704a79bbe2d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":8.95552223888056,\"y\":550.7646176911544,\"z\":4000,\"width\":1241.6191904047976,\"height\":169.5152423788106,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"What:\",\"textStyle\":{\"fontWeight\":\"bold\"}},{\"value\":\" Al 31 de enero del 2024, el indicador mensual del porcentaje de boletos vendidos a nivel nacional por la línea área Latam Airlines tiene un valor de 65%, encontrándose dentro del semáforo amarillo.\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"So what: \",\"textStyle\":{\"fontWeight\":\"bold\"}},{\"value\":\"Debido a que estamos por debajo del objetivo que es 68%, esto significaría que estamos dejando de ganar $265,919 \"},{\"value\":\"de facturación mensual adicional y $\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}},{\"value\":\"3,191,028 de facturación anual.\",\"textStyle\":{\"fontSize\":\"13.3333px\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Now what: \",\"textStyle\":{\"fontWeight\":\"bold\"}},{\"value\":\"Para lograr este objetivo se plantea implementar como estrategia de marketing que todos los clientes que compren un ticket con destino a Ancash o Jaén, tripliquen la ganancia de sus millas. Esta campaña durará hasta la primera semana de diciembre 2024 y será informado al público mediante publicidad física y redes sociales. Asimismo, con el fin de atraer a los clientes que usan transporte terrestre, se aplicará nextselling y upselling como estrategias de ventas ofreciendo opciones adicionales como aumentar el peso de equipaje, tipo de asiento, menú, estatus del vuelo, vuelos a otro destino.\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 169.52,
+          "width": 1241.62,
+          "x": 8.96,
+          "y": 550.76,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"00e4a2f57c714fc3ef2f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":891.0744627686157,\"y\":217.4912543728136,\"z\":7000,\"width\":63.32833583208396,\"height\":90.19490254872564,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'arrow'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"270L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":8,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":8,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 90.19,
+          "width": 63.33,
+          "x": 891.07,
+          "y": 217.49,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"27dcaef3f7d66f0ed9a8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1169.335332333833,\"y\":276.9815092453773,\"z\":10000,\"width\":101.06946526736633,\"height\":76.7616191904048,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'31/12/2025 Transcurre 1 años del objetivo Facturación adicional de 3,191,028'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 76.76,
+          "width": 101.07,
+          "x": 1169.34,
+          "y": 276.98,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"2ce8f8a7d73069cf5497\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":150.96451774112944,\"z\":2000,\"width\":239.24037981009496,\"height\":399.800099950025,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"grupo04 vuelo_mercado_nacional.PERIODO\",\"active\":true}],\"Values\":[{\"queryRef\":\"Medidas.Facturacion_SUMA\"},{\"queryRef\":\"Medidas.Participación\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"grupo04 vuelo_mercado_nacional\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"PERIODO\"},\"Name\":\"grupo04 vuelo_mercado_nacional.PERIODO\",\"NativeReferenceName\":\"PERIODO\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Facturacion_SUMA\"},\"Name\":\"Medidas.Facturacion_SUMA\",\"NativeReferenceName\":\"Facturación\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Participación\"},\"Name\":\"Medidas.Participación\",\"NativeReferenceName\":\"%KPI\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"PERIODO\"}}}]},\"columnProperties\":{\"Medidas.Participación\":{\"displayName\":\"%KPI\"},\"Medidas.Facturacion_SUMA\":{\"displayName\":\"Facturación\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"blankRows\":[{\"properties\":{\"showBlankRows\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"values\":[{\"properties\":{\"valuesOnRow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"subTotals\":[{\"properties\":{\"perRowLevel\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"rowSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"columnSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}},{\"properties\":{\"levelSubtotalLabel\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"levelSubtotalEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"metadata\":\"grupo04 vuelo_mercado_nacional.PERIODO\"}}],\"rowTotal\":[{\"properties\":{\"applyToHeaders\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"columnTotal\":[{\"properties\":{\"applyToHeaders\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 399.80,
+          "width": 239.24,
+          "x": 0.00,
+          "y": 150.96,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"35e0ceb1c987d8e42ba1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":239.24037981009496,\"y\":156.08195902048976,\"z\":3000,\"width\":1011.3343328335833,\"height\":394.6826586706647,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"grupo04 vuelo_mercado_nacional.PERIODO\",\"active\":true}],\"Y\":[{\"queryRef\":\"Medidas.Participación\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"grupo04 vuelo_mercado_nacional\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"PERIODO\"},\"Name\":\"grupo04 vuelo_mercado_nacional.PERIODO\",\"NativeReferenceName\":\"PERIODO\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Participación\"},\"Name\":\"Medidas.Participación\",\"NativeReferenceName\":\"Participación\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'Above'\"}}},\"optimizeLabelDisplay\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"seriesLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 394.68,
+          "width": 1011.33,
+          "x": 239.24,
+          "y": 156.08,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"3d8ad2227234326f4763\",\"layouts\":[{\"id\":0,\"position\":{\"x\":127.60736196319019,\"y\":81.79959100204499,\"z\":1000,\"width\":1024.7852760736196,\"height\":69.36605316973416,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"REPORTE DEL INDICADOR MENSUAL DEL PORCENTAJE DE BOLETOS VENDIDOS A NIVEL NACIONAL POR LA LÍNEA ÁEREA LATAM AIRLINES\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#1f1f1f\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.37,
+          "width": 1024.79,
+          "x": 127.61,
+          "y": 81.80,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"6cfe8ac77023b07060d0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":605.1374312843578,\"y\":348.6256871564218,\"z\":5000,\"width\":58.21089455272364,\"height\":81.87906046976512,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'arrow'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"270L\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 81.88,
+          "width": 58.21,
+          "x": 605.14,
+          "y": 348.63,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"a65b52b7c694e3edd0be\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1188.5257371314344,\"y\":217.4912543728136,\"z\":9000,\"width\":62.04897551224388,\"height\":64.60769615192405,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'arrow'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"270L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 64.61,
+          "width": 62.05,
+          "x": 1188.53,
+          "y": 217.49,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"b57536bf580ee63cf9b5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"e055615edf248aae1a94\",\"layouts\":[{\"id\":0,\"position\":{\"x\":584.6676661669165,\"y\":399.800099950025,\"z\":6000,\"width\":99.1504247876062,\"height\":74.20289855072464,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'31/01/2024 Inicio del proyecto Indicador 65%'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 74.20,
+          "width": 99.15,
+          "x": 584.67,
+          "y": 399.80,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"ed7b41191fffebf08acd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":880.8395802098951,\"y\":276.9815092453773,\"z\":8000,\"width\":90.19490254872564,\"height\":62.04897551224388,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":8,\"Percent\":0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":8,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'31/12/2024 Fin del proyecto: Indicador en 68%'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'top'\"}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 62.05,
+          "width": 90.19,
+          "x": 880.84,
+          "y": 276.98,
+          "z": 8000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-26012424929251898099936.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}]}}",
+      "displayName": "Reporte 7",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "5ed2a64a5e626ba51d0c",
+      "ordinal": 11,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"102856ff28e59b7d5b35\",\"layouts\":[{\"id\":0,\"position\":{\"x\":39.2638036809816,\"y\":176.68711656441707,\"z\":3000,\"width\":258.4867075664622,\"height\":116.48261758691207,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Tiempo.anio\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"},\"Name\":\"Tiempo.anio\",\"NativeReferenceName\":\"anio\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"2024L\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Año'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 116.48,
+          "width": 258.49,
+          "x": 39.26,
+          "y": 176.69,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"680dc1e7d2598344d471\",\"layouts\":[{\"id\":0,\"position\":{\"x\":39.2638036809816,\"y\":305.60327198364,\"z\":4000,\"width\":258.4867075664622,\"height\":380.8588957055215,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Tiempo.mes\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"mes\"},\"Name\":\"Tiempo.mes\",\"NativeReferenceName\":\"mes\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"mes\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"6L\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Mes'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 380.86,
+          "width": 258.49,
+          "x": 39.26,
+          "y": 305.60,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"aed25aad0bbc4c3a9c5a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"bfc0c88539489cd9c098\",\"layouts\":[{\"id\":0,\"position\":{\"x\":127.60736196319019,\"y\":81.79959100204499,\"z\":1000,\"width\":1024.7852760736196,\"height\":69.36605316973416,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿Qué tipo de cabina ha tenido el mayor crecimiento interanual en porcentaje de boletos vendidos en junio 2024?\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.37,
+          "width": 1024.79,
+          "x": 127.61,
+          "y": 81.80,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"f6296e2034cb3d2a9edb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":319.45423536100054,\"y\":176.82774303581579,\"z\":2000,\"width\":877.5895395110858,\"height\":419.87492893689597,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Tiempo.mes_nombre\",\"active\":true}],\"Y\":[{\"queryRef\":\"Medidas.Boletos_COUNT_Growth_ECO_YoY\"},{\"queryRef\":\"Medidas.Boletos_COUNT_Growth_BUS_YoY\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT_Growth_ECO_YoY\"},\"Name\":\"Medidas.Boletos_COUNT_Growth_ECO_YoY\",\"NativeReferenceName\":\"CABINA ECONÓMICA\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT_Growth_BUS_YoY\"},\"Name\":\"Medidas.Boletos_COUNT_Growth_BUS_YoY\",\"NativeReferenceName\":\"CABINA BUSINESS\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"mes_nombre\"},\"Name\":\"Tiempo.mes_nombre\",\"NativeReferenceName\":\"Mes\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT_Growth_ECO_YoY\"}}}]},\"columnProperties\":{\"Medidas.Boletos_COUNT_Growth_ECO_YoY\":{\"displayName\":\"CABINA ECONÓMICA\"},\"Medidas.Boletos_COUNT_Growth_BUS_YoY\":{\"displayName\":\"CABINA BUSINESS\"},\"Tiempo.mes_nombre\":{\"displayName\":\"Mes\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'InsideCenter'\"}}}}}],\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Mes'\"}}}}}],\"valueAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'% Boletos vendidos'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"' Junio 2024'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 419.87,
+          "width": 877.59,
+          "x": 319.45,
+          "y": 176.83,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-26012424929251898099936.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}]}}",
+      "displayName": "Reporte 8",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "63cca1bac635a33a0dd1",
+      "ordinal": 12,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"2acb3113bc0b18636233\",\"layouts\":[{\"id\":0,\"position\":{\"x\":127.60736196319019,\"y\":81.79959100204499,\"z\":1000,\"width\":1024.7852760736196,\"height\":69.36605316973416,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿Cuál es el top 3 de meses con la mayor cantidad de boletos vendidos durante el 2024?\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.37,
+          "width": 1024.79,
+          "x": 127.61,
+          "y": 81.80,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"5ca0e8d48a333459e808\",\"layouts\":[{\"id\":0,\"position\":{\"x\":52.351738241308794,\"y\":198.28220858895705,\"z\":2000,\"width\":258.4867075664622,\"height\":116.48261758691207,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Tiempo.anio\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"},\"Name\":\"Tiempo.anio\",\"NativeReferenceName\":\"anio\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"2024L\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Año'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 116.48,
+          "width": 258.49,
+          "x": 52.35,
+          "y": 198.28,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"9d7f216fa853a140dcd5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"db38a46e0a5a8ebd7181\",\"layouts\":[{\"id\":0,\"position\":{\"x\":348.56168277430356,\"y\":197.93064241046048,\"z\":3000,\"width\":820.8300170551449,\"height\":454.8038658328596,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Tiempo.mes_nombre\",\"active\":true}],\"Y\":[{\"queryRef\":\"Medidas.Boletos_COUNT\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"},\"Name\":\"Medidas.Boletos_COUNT\",\"NativeReferenceName\":\"Boletos vendidos\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"mes_nombre\"},\"Name\":\"Tiempo.mes_nombre\",\"NativeReferenceName\":\"Mes\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"}}}]},\"columnProperties\":{\"Medidas.Boletos_COUNT\":{\"displayName\":\"Boletos vendidos\"},\"Tiempo.mes_nombre\":{\"displayName\":\"Mes\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Conditional\":{\"Cases\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_COUNT\"}},\"Right\":{\"Literal\":{\"Value\":\"3900D\"}}}},\"Value\":{\"Literal\":{\"Value\":\"'#DEEFFF'\"}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_COUNT\"}},\"Right\":{\"Literal\":{\"Value\":\"3900D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_COUNT\"}},\"Right\":{\"Literal\":{\"Value\":\"5000D\"}}}}}},\"Value\":{\"Literal\":{\"Value\":\"'#12239E'\"}}}]}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 454.80,
+          "width": 820.83,
+          "x": 348.56,
+          "y": 197.93,
+          "z": 3000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-26012424929251898099936.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}],\"pageRefresh\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+      "displayName": "Reporte 5",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "6c4d0637766ccb7664b3",
+      "ordinal": 9,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"6697160488db6c029ed3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":52.351738241308794,\"y\":197.6278118609407,\"z\":3000,\"width\":258.4867075664622,\"height\":116.48261758691207,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Tiempo.anio\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"},\"Name\":\"Tiempo.anio\",\"NativeReferenceName\":\"anio\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"2024L\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Año'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 116.48,
+          "width": 258.49,
+          "x": 52.35,
+          "y": 197.63,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"be211dda5e23132c3034\",\"layouts\":[{\"id\":0,\"position\":{\"x\":127.60736196319019,\"y\":81.79959100204499,\"z\":1000,\"width\":1024.7852760736196,\"height\":69.36605316973416,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿ Cuántos pasajeros extranjeros se han transportado mensualmente durante el año 2024 ?\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.37,
+          "width": 1024.79,
+          "x": 127.61,
+          "y": 81.80,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"c49e40b0300e9db68225\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"d11fd3f28d2b63016798\",\"layouts\":[{\"id\":0,\"position\":{\"x\":381.51329243353786,\"y\":197.6278118609407,\"z\":2000,\"width\":838.9366053169734,\"height\":448.2617586912066,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Tiempo.mes_nombre\",\"active\":true}],\"Y\":[{\"queryRef\":\"Medidas.Boletos_COUNT\"}],\"Series\":[{\"queryRef\":\"grupo04 pasajero.Nacionalidad agrupada\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0},{\"Name\":\"g\",\"Entity\":\"grupo04 pasajero\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"},\"Name\":\"Medidas.Boletos_COUNT\",\"NativeReferenceName\":\"Pasajeros transportados\"},{\"GroupRef\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"Nacionalidad agrupada\",\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"nacionalidad\"}}]},\"Name\":\"grupo04 pasajero.Nacionalidad agrupada\",\"NativeReferenceName\":\"Nacionalidad\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"mes_nombre\"},\"Name\":\"Tiempo.mes_nombre\",\"NativeReferenceName\":\"Mes\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"mes_nombre\"}}}]},\"columnProperties\":{\"Medidas.Boletos_COUNT\":{\"displayName\":\"Pasajeros transportados\"},\"Tiempo.mes_nombre\":{\"displayName\":\"Mes\"},\"grupo04 pasajero.Nacionalidad agrupada\":{\"displayName\":\"Nacionalidad\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"' Junio 2024'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 448.26,
+          "width": 838.94,
+          "x": 381.51,
+          "y": 197.63,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"f9622159c097893c75d4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":52.351738241308794,\"y\":326.5439672801636,\"z\":4000,\"width\":258.4867075664622,\"height\":380.8588957055215,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Tiempo.mes_nombre\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"mes_nombre\"},\"Name\":\"Tiempo.mes_nombre\",\"NativeReferenceName\":\"mes_nombre\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Mes'\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filterbe4e59439360b54c2a0d\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Tiempo\"}},\"Property\":\"mes_nombre\"}},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 380.86,
+          "width": 258.49,
+          "x": 52.35,
+          "y": 326.54,
+          "z": 4000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-26012424929251898099936.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}]}}",
+      "displayName": "Reporte 9",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "703deb6443c3a7006011",
+      "ordinal": 13,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"14b280200d3500be7722\",\"layouts\":[{\"id\":0,\"position\":{\"x\":127.60736196319019,\"y\":81.79959100204499,\"z\":1000,\"width\":1024.7852760736196,\"height\":69.36605316973416,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿Cuáles son los 5 destinos de LATAM con mayor facturación mensual en el 2024?\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.37,
+          "width": 1024.79,
+          "x": 127.61,
+          "y": 81.80,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"46de472c3a035e9c5099\",\"layouts\":[{\"id\":0,\"position\":{\"x\":433.2106339468303,\"y\":197.6278118609407,\"z\":2000,\"width\":787.239263803681,\"height\":468.5480572597137,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"grupo04 aeropuertos.ciudad\",\"active\":true}],\"Y\":[{\"queryRef\":\"Medidas.Facturacion_SUMA\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"grupo04 aeropuertos\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"ciudad\"},\"Name\":\"grupo04 aeropuertos.ciudad\",\"NativeReferenceName\":\"Destino\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Facturacion_SUMA\"},\"Name\":\"Medidas.Facturacion_SUMA\",\"NativeReferenceName\":\"Facturación\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Facturacion_SUMA\"}}}]},\"columnProperties\":{\"Medidas.Facturacion_SUMA\":{\"displayName\":\"Facturación\"},\"grupo04 aeropuertos.ciudad\":{\"displayName\":\"Destino\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"valueAxis\":[{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000000D\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"' Junio 2024'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"grupo04 aeropuertos\"}},\"Property\":\"ciudad\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"grupo04 aeropuertos\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"ciudad\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Facturacion_SUMA\"}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"g\",\"Entity\":\"grupo04 aeropuertos\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"ciudad\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 468.55,
+          "width": 787.24,
+          "x": 433.21,
+          "y": 197.63,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"ece0ba3c9380068b9316\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"fefad33ea7cc9a54d800\",\"layouts\":[{\"id\":0,\"position\":{\"x\":52.351738241308794,\"y\":198.28220858895705,\"z\":3000,\"width\":258.4867075664622,\"height\":116.48261758691207,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Tiempo.anio\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"},\"Name\":\"Tiempo.anio\",\"NativeReferenceName\":\"anio\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"2024L\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Año'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 116.48,
+          "width": 258.49,
+          "x": 52.35,
+          "y": 198.28,
+          "z": 3000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-26012424929251898099936.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}]}}",
+      "displayName": "Reporte 3",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "7d04c8ee0e669a64d4b5",
+      "ordinal": 7,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0d36a0b6b70c90296760\",\"layouts\":[{\"id\":0,\"position\":{\"x\":170.2127659574468,\"y\":150.7598784194529,\"z\":2000,\"width\":526.2006079027356,\"height\":544.6808510638298,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"esriVisual\",\"projections\":{\"Location\":[{\"queryRef\":\"grupo04 aeropuertos.ciudad\"}],\"Size\":[{\"queryRef\":\"Medidas.Boletos_COUNT\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"grupo04 aeropuertos\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"ciudad\"},\"Name\":\"grupo04 aeropuertos.ciudad\",\"NativeReferenceName\":\"ciudad\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"},\"Name\":\"Medidas.Boletos_COUNT\",\"NativeReferenceName\":\"Boletos_COUNT\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"}}}]},\"columnProperties\":{\"grupo04 aeropuertos.ciudad\":{\"displayName\":\"CIUDAD DESTINO\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"mapTools\":[{\"properties\":{\"basemaps\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"geometryCache\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"'{\\\"key\\\":\\\"cachedgeocode@@world\\\",\\\"compressionMethod\\\":\\\"pako\\\",\\\"data\\\":\\\"H4sIAAAAAAAAA3VWS24jNxC9StBri2CRrGJR62yyzSYJgiw47U7cStuS5W4knoEOlHPkYnn90YwRlQQvDEJ8qqr3KX5p3k517OvwY/d7d+5e2q7Zf2mGOnZv409/9o/NPirnh+av5X/ygby/PDR/dMfnbjz33Vuz/xXfP7YAOb788H2zb9rpc/P1G+8z3M/Nfod7ySuzyzLj/dLsk4j4gIOsqeCjl8vD/6Dq6+kWikpQFnWBGaD4yApXNFAQl5mW43QLN7avRmVZQ6QiLgXOcx1lgdsFn2Ly2WUiWY6LAXiejPoocdHkyHNYoLh4LUBizv5Oo+P7YM0szCWl4nJS/lYa5lgyiwsiZe403uKdeqOwnZYU8POOlXRtkjMJsfOYwYIfDKjWKE1QQURdlGm5t8JJjIJfcCFkvdPoYTLQyGfSgInFEJd7K6NKgsbJCYdlbvkWbuifrT45eqLsover1HZApujBsc9ro3SL1fZ/G1ghe1IXOa4E0MaoUPLFYQj3pNsPptZKItXoOBFfZeYJ0C4WNgTWv45WfyRgnR2c+VGxKZAEdYnKYgDI0GjyUG8BWXAzOkghfGCTEweN0SUN+Z7+P1n+DFoE/Tkum9N3ETxqnr0fdLWsoYza3WIF0aA5upg368RtajGjshwkrqyQJdzO0IYiPLIPDvSFb61CGpLYQzBhKc9Qx6FajuLk8SdOPdPH7OCU5yyKlDZBG9k2GkyEWbiLTv3WKbH6Ejw7iWKhnLvXqT8ZUNCazH5CvsatLFL2OHSwRbxHQ/vUt0N9P1qyA4ez6z371Qa7zHM+gQcMb/4YgqvvtZ3aJxMvSGBBZ5q2+lLW2W0FLS94hq+epnqu1oJRAXspucJyhfMCCQIOObKwatkU0xuPb6bJGLmDYcFjm78Iu4sQep7vLYR+sBqdXR8TVBKuhoBYBEfIFV5Ls/Jo+tyaY2PsBUzJI9NWNCWESpkPVncZZmjroT7Xc2sJRTNUXDwWqmyd5qKK/CxaVlUbyYsg76sJBw5zlAAi4rXbnBAt5LAZ7+PVyYqmnSYkHWjAsudrlpMnETfr7Q4Np6mtw2C6Yl50ATtQ0/Z62FBLFPDqkpTFGmSh9tPZhMQ2Ro2OcgjXtVqQgsjnNZ7UeIsc6r//vBhgCPE5dJFS69U1oBInRB0CCmkzHxvGPU3deTx+91yHx+NLfTR1iORL8CuVuKruajuMNCcnWZa1XYxysWjN1jmnDNMlDODKDnsJYF9SWuZrP5sO/WBaBW3nFMkpttdGjBcfM/ha3wbFyJixti+2EvGIK9FhoF+3bSxIGRdxskzAGOQ4PX/qzERAtHi8YAtvD7tdRLEawEpZ2crWo7MO1ZRN8VgSjNuetqyHIlNSh1W0CBvyuVx+u/wHKtpJ5aMLAAA=\\\"}'\"}}}}}],\"mapObject\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"'{\\\"portalUrl\\\":\\\"https://www.arcgis.com\\\",\\\"version\\\":\\\"2.3\\\",\\\"isAuthorNamedUser\\\":false,\\\"map\\\":{\\\"webmap\\\":{\\\"is3d\\\":false,\\\"itemData\\\":{\\\"operationalLayers\\\":[{\\\"id\\\":\\\"MyLayer\\\",\\\"visibility\\\":true,\\\"opacity\\\":1,\\\"minScale\\\":0,\\\"maxScale\\\":0,\\\"refreshInterval\\\":0,\\\"title\\\":\\\"ciudad\\\",\\\"objectIdField\\\":\\\"objectId\\\",\\\"type\\\":\\\"DataLayer\\\",\\\"layerType\\\":\\\"ArcGISFeatureLayer\\\",\\\"popupEnabled\\\":true,\\\"disablePopup\\\":false,\\\"visible\\\":true,\\\"geometryType\\\":\\\"polygon\\\",\\\"source\\\":[{\\\"attributes\\\":{},\\\"geometry\\\":{\\\"rings\\\":[],\\\"type\\\":\\\"polygon\\\",\\\"spatialReference\\\":{\\\"latestWkid\\\":3857,\\\"wkid\\\":102100}}}],\\\"spatialReference\\\":{\\\"latestWkid\\\":3857,\\\"wkid\\\":102100},\\\"esriMaps\\\":{\\\"customProps\\\":null,\\\"isTimeEnabled\\\":\\\"false\\\",\\\"clusterInfo\\\":null,\\\"filteredRenderer\\\":null,\\\"lastShareInfo\\\":null},\\\"timeInfo\\\":null,\\\"showLabels\\\":true,\\\"featureCollection\\\":{\\\"layers\\\":[{\\\"popupInfo\\\":{\\\"popupElements\\\":[{\\\"type\\\":\\\"fields\\\",\\\"fieldInfos\\\":[{\\\"fieldName\\\":\\\"grupo04_20aeropuertos_ciudad\\\",\\\"label\\\":\\\"CIUDAD DESTINO\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true},{\\\"fieldName\\\":\\\"Medidas_Boletos_COUNT\\\",\\\"format\\\":{\\\"digitSeparator\\\":true,\\\"places\\\":2},\\\"label\\\":\\\"Boletos_COUNT\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true},{\\\"fieldName\\\":\\\"ROW_ID\\\",\\\"format\\\":{\\\"digitSeparator\\\":true,\\\"places\\\":0},\\\"label\\\":\\\"ROW_ID\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true}]}],\\\"expressionInfos\\\":[],\\\"fieldInfos\\\":[{\\\"fieldName\\\":\\\"grupo04_20aeropuertos_ciudad\\\",\\\"label\\\":\\\"CIUDAD DESTINO\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true},{\\\"fieldName\\\":\\\"Medidas_Boletos_COUNT\\\",\\\"format\\\":{\\\"digitSeparator\\\":true,\\\"places\\\":2},\\\"label\\\":\\\"Boletos_COUNT\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true},{\\\"fieldName\\\":\\\"ROW_ID\\\",\\\"format\\\":{\\\"digitSeparator\\\":true,\\\"places\\\":0},\\\"label\\\":\\\"ROW_ID\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true}],\\\"title\\\":\\\"\\\",\\\"actions\\\":[]},\\\"layerDefinition\\\":{\\\"objectIdField\\\":\\\"objectId\\\",\\\"fields\\\":[{\\\"alias\\\":\\\"objectId\\\",\\\"editable\\\":false,\\\"length\\\":-1,\\\"name\\\":\\\"objectId\\\",\\\"nullable\\\":false,\\\"type\\\":\\\"esriFieldTypeOID\\\"},{\\\"alias\\\":\\\"CIUDAD DESTINO\\\",\\\"editable\\\":true,\\\"length\\\":-1,\\\"name\\\":\\\"grupo04_20aeropuertos_ciudad\\\",\\\"nullable\\\":true,\\\"type\\\":\\\"esriFieldTypeString\\\"},{\\\"alias\\\":\\\"Boletos_COUNT\\\",\\\"editable\\\":true,\\\"length\\\":-1,\\\"name\\\":\\\"Medidas_Boletos_COUNT\\\",\\\"nullable\\\":true,\\\"type\\\":\\\"esriFieldTypeDouble\\\"},{\\\"alias\\\":\\\"ROW_ID\\\",\\\"editable\\\":true,\\\"length\\\":-1,\\\"name\\\":\\\"ROW_ID\\\",\\\"nullable\\\":true,\\\"type\\\":\\\"esriFieldTypeInteger\\\"}],\\\"geometryType\\\":\\\"polygon\\\",\\\"drawingInfo\\\":{\\\"renderer\\\":{\\\"type\\\":\\\"simple\\\",\\\"visualVariables\\\":[],\\\"symbol\\\":{\\\"type\\\":\\\"esriSFS\\\",\\\"color\\\":[1,70,228,255],\\\"outline\\\":{\\\"type\\\":\\\"esriSLS\\\",\\\"color\\\":[255,255,255,204],\\\"width\\\":1,\\\"style\\\":\\\"esriSLSSolid\\\"},\\\"style\\\":\\\"esriSFSSolid\\\"}},\\\"labelingInfo\\\":[{\\\"labelExpression\\\":\\\"[grupo04_20aeropuertos_ciudad]\\\",\\\"labelExpressionInfo\\\":{\\\"expression\\\":\\\"$feature[\\\\\\\"grupo04_20aeropuertos_ciudad\\\\\\\"]\\\"},\\\"labelPlacement\\\":\\\"esriServerPointLabelPlacementAboveRight\\\",\\\"labelPosition\\\":\\\"curved\\\",\\\"repeatLabel\\\":true,\\\"symbol\\\":{\\\"type\\\":\\\"esriTS\\\",\\\"color\\\":[0,0,0,255],\\\"font\\\":{\\\"family\\\":\\\"Arial Unicode MS\\\",\\\"size\\\":8},\\\"horizontalAlignment\\\":\\\"center\\\",\\\"kerning\\\":true,\\\"rotated\\\":false,\\\"text\\\":\\\"\\\",\\\"verticalAlignment\\\":\\\"baseline\\\",\\\"xoffset\\\":0,\\\"yoffset\\\":0,\\\"angle\\\":0,\\\"lineWidth\\\":192,\\\"lineHeight\\\":1}}],\\\"transparency\\\":0},\\\"featureReduction\\\":null,\\\"minScale\\\":0,\\\"maxScale\\\":0,\\\"definitionExpression\\\":null,\\\"elevationInfo\\\":null,\\\"name\\\":\\\"ciudad\\\",\\\"type\\\":\\\"DataLayer\\\",\\\"locationProvider\\\":{\\\"type\\\":\\\"cachedstdgeo\\\",\\\"adminLevel\\\":\\\"Admin3\\\",\\\"targetSR\\\":{\\\"latestWkid\\\":3857,\\\"wkid\\\":102100},\\\"useExactMatch\\\":false,\\\"sourceCountry\\\":\\\"PE\\\",\\\"geographyLevel\\\":\\\"PE.Provinces\\\",\\\"lookupFields\\\":[{\\\"lookupField\\\":\\\"Location\\\",\\\"outField\\\":\\\"grupo04_20aeropuertos_ciudad\\\"}]},\\\"queryParameters\\\":{\\\"tableId\\\":\\\"\\\"}},\\\"featureSet\\\":{\\\"features\\\":[{\\\"attributes\\\":{},\\\"geometry\\\":{\\\"rings\\\":[],\\\"type\\\":\\\"polygon\\\",\\\"spatialReference\\\":{\\\"latestWkid\\\":3857,\\\"wkid\\\":102100}}}]}}]}}],\\\"tables\\\":[],\\\"baseMap\\\":{\\\"baseMapLayers\\\":[{\\\"id\\\":\\\"VectorTile_3287\\\",\\\"opacity\\\":1,\\\"title\\\":\\\"OpenStreetMap\\\",\\\"visibility\\\":true,\\\"layerType\\\":\\\"VectorTileLayer\\\",\\\"styleUrl\\\":\\\"https://cdn.arcgis.com/sharing/rest/content/items/0df19d2d940b47658857cc2fc9623840/resources/styles/root.json\\\"}],\\\"title\\\":\\\"OpenStreetMap\\\"},\\\"version\\\":\\\"2.26\\\",\\\"authoringApp\\\":\\\"ArcGIS for Power BI\\\",\\\"bookmarks\\\":[],\\\"initialState\\\":{\\\"viewpoint\\\":{\\\"targetGeometry\\\":{\\\"spatialReference\\\":{\\\"latestWkid\\\":3857,\\\"wkid\\\":102100},\\\"xmin\\\":-9655427.138694495,\\\"ymin\\\":-2575587.3254918708,\\\"xmax\\\":-7131170.716605506,\\\"ymax\\\":41616.522991868434}}}}},\\\"webmapExtensions\\\":{\\\"format\\\":1}}}'\"}}}}}],\"layers\":[{\"properties\":{\"layerVisible\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"' Junio 2024'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_COUNT\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"}},\"Right\":{\"Literal\":{\"Value\":\"949L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 544.68,
+          "width": 526.20,
+          "x": 170.21,
+          "y": 150.76,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"33928adce51e08721b00\",\"layouts\":[{\"id\":0,\"position\":{\"x\":127.60736196319019,\"y\":81.79959100204499,\"z\":1000,\"width\":1024.7852760736196,\"height\":69.36605316973416,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿Cuáles son los 10 destinos con mayor participación de LATAM en base a boletos vendidos a nivel nacional de manera mensual en el 2024?\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#1f1f1f\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.37,
+          "width": 1024.79,
+          "x": 127.61,
+          "y": 81.80,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"73e5fc0f723207016082\",\"layouts\":[{\"id\":0,\"position\":{\"x\":52.52279635258359,\"y\":197.4468085106383,\"z\":3000,\"width\":117.68996960486322,\"height\":109.90881458966565,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Tiempo.anio\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"},\"Name\":\"Tiempo.anio\",\"NativeReferenceName\":\"anio\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"2024L\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Año'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 109.91,
+          "width": 117.69,
+          "x": 52.52,
+          "y": 197.45,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"9fddccce4e7ccd636b3b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":708.0851063829787,\"y\":150.83469721767594,\"z\":4000,\"width\":539.7926895799236,\"height\":544.6808510638298,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"grupo04 aeropuertos.ciudad\"},{\"queryRef\":\"Medidas.Boletos_COUNT\"},{\"queryRef\":\"Divide(Medidas.Boletos_COUNT, ScopedEval(Medidas.Boletos_COUNT, []))\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"grupo04 aeropuertos\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"ciudad\"},\"Name\":\"grupo04 aeropuertos.ciudad\",\"NativeReferenceName\":\"DESTINO\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"},\"Name\":\"Medidas.Boletos_COUNT\",\"NativeReferenceName\":\"BOLETOS VENDIDOS\"},{\"Arithmetic\":{\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"}},\"Scope\":[]}},\"Operator\":3},\"Name\":\"Divide(Medidas.Boletos_COUNT, ScopedEval(Medidas.Boletos_COUNT, []))\",\"NativeReferenceName\":\"% BOLETOS VENDIDOS\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Arithmetic\":{\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"}},\"Scope\":[]}},\"Operator\":3}}}]},\"columnProperties\":{\"grupo04 aeropuertos.ciudad\":{\"displayName\":\"DESTINO\"},\"Medidas.Boletos_COUNT\":{\"displayName\":\"BOLETOS VENDIDOS\"},\"Divide(Medidas.Boletos_COUNT, ScopedEval(Medidas.Boletos_COUNT, []))\":{\"displayName\":\"% BOLETOS VENDIDOS\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"values\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}}}}],\"columnHeaders\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"' Junio 2024'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_COUNT\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"}},\"Right\":{\"Literal\":{\"Value\":\"949L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 544.68,
+          "width": 539.79,
+          "x": 708.09,
+          "y": 150.83,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"c0470adcdb867be0e350\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-26012424929251898099936.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}]}}",
+      "displayName": "Reporte 6",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "874de13cab06cedec715",
+      "ordinal": 10,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"320b61ff580be0a22286\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"a8d6303645b09b0c5c96\",\"layouts\":[{\"id\":0,\"position\":{\"x\":127.60736196319019,\"y\":81.79959100204499,\"z\":1000,\"width\":1024.7852760736196,\"height\":69.36605316973416,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿Cuáles son los 10 destinos de LATAM que han tenido el menor porcentaje boletos vendidos en cabina business a nivel nacional durante el 2024?\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.37,
+          "width": 1024.79,
+          "x": 127.61,
+          "y": 81.80,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"bdd761e7da0094596c56\",\"layouts\":[{\"id\":0,\"position\":{\"x\":48.632218844984806,\"y\":179.93920972644378,\"z\":3000,\"width\":156.59574468085108,\"height\":116.71732522796353,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Tiempo.anio\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"},\"Name\":\"Tiempo.anio\",\"NativeReferenceName\":\"anio\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"2024L\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Año'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 116.72,
+          "width": 156.60,
+          "x": 48.63,
+          "y": 179.94,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"e7f0b5c0286baa21a120\",\"layouts\":[{\"id\":0,\"position\":{\"x\":241.21580547112464,\"y\":179.93920972644378,\"z\":2000,\"width\":1009.6048632218846,\"height\":517.4468085106383,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"grupo04 aeropuertos.ciudad\",\"active\":true}],\"Y\":[{\"queryRef\":\"Medidas.Boletos_Count_BUSINESS\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"grupo04 aeropuertos\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"ciudad\"},\"Name\":\"grupo04 aeropuertos.ciudad\",\"NativeReferenceName\":\"Destinos\"},{\"Arithmetic\":{\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_Count_BUSINESS\"}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_Count_BUSINESS\"}},\"Scope\":[]}},\"Operator\":3},\"Name\":\"Medidas.Boletos_Count_BUSINESS\",\"NativeReferenceName\":\"% Boletos vendidos\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Arithmetic\":{\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_Count_BUSINESS\"}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_Count_BUSINESS\"}},\"Scope\":[]}},\"Operator\":3}}}]},\"columnProperties\":{\"Medidas.Boletos_Count_BUSINESS\":{\"displayName\":\"% Boletos vendidos\"},\"grupo04 aeropuertos.ciudad\":{\"displayName\":\"Destinos\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryAxis\":[{\"properties\":{\"switchAxisPosition\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"borderShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Conditional\":{\"Cases\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_Count_BUSINESS\"}},\"Right\":{\"Literal\":{\"Value\":\"92D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_Count_BUSINESS\"}},\"Right\":{\"Literal\":{\"Value\":\"5000D\"}}}}}},\"Value\":{\"Literal\":{\"Value\":\"'#DEEFFF'\"}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_Count_BUSINESS\"}},\"Right\":{\"Literal\":{\"Value\":\"10D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_Count_BUSINESS\"}},\"Right\":{\"Literal\":{\"Value\":\"92D\"}}}}}},\"Value\":{\"Literal\":{\"Value\":\"'#12239E'\"}}}]}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"' Junio 2024'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_Count_BUSINESS\"}},\"type\":\"Advanced\",\"howCreated\":1,\"isHiddenInViewMode\":false}]",
+          "height": 517.45,
+          "width": 1009.60,
+          "x": 241.22,
+          "y": 179.94,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-26012441967912011950625.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}],\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"368L\"}}}}}]}}",
+      "displayName": "Reporte 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "8e91f9640d10781cbe00",
+      "ordinal": 5,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"19ffb9260661524e0959\",\"layouts\":[{\"id\":0,\"position\":{\"x\":25.781990521327014,\"y\":185.781990521327,\"z\":3000,\"width\":197.91469194312796,\"height\":470.1421800947867,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"grupo04 vuelo_mercado_nacional.PERIODO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"grupo04 vuelo_mercado_nacional\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"PERIODO\"},\"Name\":\"grupo04 vuelo_mercado_nacional.PERIODO\",\"NativeReferenceName\":\"PERIODO\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"grupo04 vuelo_mercado_nacional\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"PERIODO\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'2023_07'\"}}],[{\"Literal\":{\"Value\":\"'2023_08'\"}}],[{\"Literal\":{\"Value\":\"'2023_09'\"}}],[{\"Literal\":{\"Value\":\"'2023_10'\"}}],[{\"Literal\":{\"Value\":\"'2023_11'\"}}],[{\"Literal\":{\"Value\":\"'2023_12'\"}}],[{\"Literal\":{\"Value\":\"'2024_01'\"}}],[{\"Literal\":{\"Value\":\"'2024_02'\"}}],[{\"Literal\":{\"Value\":\"'2024_03'\"}}],[{\"Literal\":{\"Value\":\"'2024_04'\"}}],[{\"Literal\":{\"Value\":\"'2024_05'\"}}],[{\"Literal\":{\"Value\":\"'2024_06'\"}}]]}}}]}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filtera6e7109268c2b27872cf\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"grupo04 vuelo_mercado_nacional\"}},\"Property\":\"PERIODO\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"grupo04 vuelo_mercado_nacional\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"PERIODO\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"null\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 470.14,
+          "width": 197.91,
+          "x": 25.78,
+          "y": 185.78,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"596fdf649a32db15b6b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"9e2f12b1b8481010603b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":258.55670103092785,\"y\":180.6185567010309,\"z\":2000,\"width\":900.6185567010309,\"height\":454.02061855670104,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Medidas.Participación\"}],\"Y2\":[{\"queryRef\":\"Medidas.Facturacion_SUMA\"}],\"Category\":[{\"queryRef\":\"grupo04 vuelo_mercado_nacional.PERIODO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0},{\"Name\":\"g\",\"Entity\":\"grupo04 vuelo_mercado_nacional\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Participación\"},\"Name\":\"Medidas.Participación\",\"NativeReferenceName\":\"% Boletos vendidos\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Facturacion_SUMA\"},\"Name\":\"Medidas.Facturacion_SUMA\",\"NativeReferenceName\":\"Facturación\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"PERIODO\"},\"Name\":\"grupo04 vuelo_mercado_nacional.PERIODO\",\"NativeReferenceName\":\"PERIODO\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Participación\"}}}]},\"columnProperties\":{\"Medidas.Participación\":{\"displayName\":\"% Boletos vendidos\"},\"Medidas.Facturacion_SUMA\":{\"displayName\":\"Facturación\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"lineStyles\":[{\"properties\":{\"showMarker\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Conditional\":{\"Cases\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Participación\"}},\"Right\":{\"Literal\":{\"Value\":\"0.679D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Participación\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}}},\"Value\":{\"Literal\":{\"Value\":\"'#33F211'\"}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Participación\"}},\"Right\":{\"Literal\":{\"Value\":\"0.65D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Participación\"}},\"Right\":{\"Literal\":{\"Value\":\"0.679D\"}}}}}},\"Value\":{\"Literal\":{\"Value\":\"'#F6F23B'\"}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Participación\"}},\"Right\":{\"Literal\":{\"Value\":\"0D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Participación\"}},\"Right\":{\"Literal\":{\"Value\":\"0.65D\"}}}}}},\"Value\":{\"Literal\":{\"Value\":\"'#EC0404'\"}}}]}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}},{\"properties\":{\"borderShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Periodo'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"concatenateLabels\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"legendMarkerRendering\":{\"expr\":{\"Literal\":{\"Value\":\"'lineAndMarker'\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}],\"valueAxis\":[{\"properties\":{\"invertAxis\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"secShowAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"secTitleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Facturación'\"}}}}}],\"seriesLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 454.02,
+          "width": 900.62,
+          "x": 258.56,
+          "y": 180.62,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"f98529e9b1dbd2385de1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":127.60736196319019,\"y\":81.79959100204499,\"z\":1000,\"width\":1024.7852760736196,\"height\":69.36605316973416,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿Cuál es la participación mensual de mercado en base a boletos vendidos a nivel nacional por LATAM en los últimos 12 meses y la facturación correspondiente?\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#000000\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.37,
+          "width": 1024.79,
+          "x": 127.61,
+          "y": 81.80,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-2601246626431728053934.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}]}}",
+      "displayName": "Inicio",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"531929a1c4b803ea3e1a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":503.44827586206895,\"y\":49.6551724137931,\"z\":1000,\"width\":301.3793103448276,\"height\":171.72413793103448,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Latam-logo_-v_(Indigo).svg06651026062587828.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 171.72,
+          "width": 301.38,
+          "x": 503.45,
+          "y": 49.66,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"77ba70f104611ddd7c52\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"7e1f31199191c0c4e137\",\"layouts\":[{\"id\":0,\"position\":{\"x\":214.48275862068965,\"y\":204.13793103448276,\"z\":2000,\"width\":879.3103448275863,\"height\":495.86206896551727,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Integrantes\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"28pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Paolo Salazar\",\"textStyle\":{\"fontSize\":\"24pt\"}}],\"horizontalTextAlignment\":\"center\",\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Erick Aquino\",\"textStyle\":{\"fontSize\":\"24pt\"}}],\"horizontalTextAlignment\":\"center\",\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Juan Bringas\",\"textStyle\":{\"fontSize\":\"24pt\"}}],\"horizontalTextAlignment\":\"center\",\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Luis Cuba\",\"textStyle\":{\"fontSize\":\"24pt\"}}],\"horizontalTextAlignment\":\"center\",\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Dennis Rodriguez\",\"textStyle\":{\"fontSize\":\"24pt\"}}],\"horizontalTextAlignment\":\"center\",\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Katherine Vargas\",\"textStyle\":{\"fontSize\":\"24pt\"}}],\"horizontalTextAlignment\":\"center\",\"listType\":\"bullet\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 495.86,
+          "width": 879.31,
+          "x": 214.48,
+          "y": 204.14,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-2601248737920697114026.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}]}}",
+      "displayName": "Reporte 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection44556d80a85ce16a7816",
+      "ordinal": 6,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1d4dc3d1263a8062018a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"23c9efd4515007ce61a5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":335.17241379310343,\"y\":140,\"z\":2000,\"width\":793.7931034482759,\"height\":426.89655172413796,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"grupo04 aeropuertos.ciudad\",\"active\":true}],\"Values\":[{\"queryRef\":\"Medidas.Boletos_COUNT_PY\"},{\"queryRef\":\"Medidas.Boletos_COUNT\"},{\"queryRef\":\"Medidas.Boletos_COUNT_Growth_YoY_num\"},{\"queryRef\":\"Medidas.Boletos_COUNT_Growth_YoY\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0},{\"Name\":\"g\",\"Entity\":\"grupo04 aeropuertos\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"ciudad\"},\"Name\":\"grupo04 aeropuertos.ciudad\",\"NativeReferenceName\":\"Destino\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT\"},\"Name\":\"Medidas.Boletos_COUNT\",\"NativeReferenceName\":\"Boletos vendidos 2024\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT_PY\"},\"Name\":\"Medidas.Boletos_COUNT_PY\",\"NativeReferenceName\":\"Boletos vendidos 2023\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT_Growth_YoY_num\"},\"Name\":\"Medidas.Boletos_COUNT_Growth_YoY_num\",\"NativeReferenceName\":\"Crecimiento interanual\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT_Growth_YoY\"},\"Name\":\"Medidas.Boletos_COUNT_Growth_YoY\",\"NativeReferenceName\":\"Crecimiento interanual %\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT_Growth_YoY\"}}}]},\"columnProperties\":{\"Medidas.Boletos_COUNT\":{\"displayName\":\"Boletos vendidos 2024\"},\"Medidas.Boletos_COUNT_PY\":{\"displayName\":\"Boletos vendidos 2023\"},\"Medidas.Boletos_COUNT_Growth_YoY_num\":{\"displayName\":\"Crecimiento interanual\"},\"Medidas.Boletos_COUNT_Growth_YoY\":{\"displayName\":\"Crecimiento interanual %\"},\"grupo04 aeropuertos.ciudad\":{\"displayName\":\"Destino\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"values\":[{\"properties\":{},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}],\"metadata\":\"Medidas.Boletos_COUNT_Growth_YoY\"}},{\"properties\":{\"icon\":{\"kind\":\"Icon\",\"layout\":{\"expr\":{\"Literal\":{\"Value\":\"'Before'\"}}},\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}},\"value\":{\"expr\":{\"Conditional\":{\"Cases\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_COUNT_Growth_YoY\"}},\"Right\":{\"Literal\":{\"Value\":\"0.0001D\"}}}},\"Value\":{\"Literal\":{\"Value\":\"'TriangleLow'\"}}},{\"Condition\":{\"Literal\":{\"Value\":\"true\"}},\"Value\":{\"Literal\":{\"Value\":\"'TriangleHigh'\"}}}]}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":0}}],\"metadata\":\"Medidas.Boletos_COUNT_Growth_YoY\"}},{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}}}}],\"grid\":[{\"properties\":{\"gridHorizontal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"gridVertical\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"blankRows\":[{\"properties\":{\"showBlankRows\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"subTotals\":[{\"properties\":{\"columnSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"rowSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"columnHeaders\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}],\"rowHeaders\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Boletos_COUNT_Growth_YoY_num\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Boletos_COUNT_Growth_YoY_num\"}},\"Right\":{\"Literal\":{\"Value\":\"10L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 426.90,
+          "width": 793.79,
+          "x": 335.17,
+          "y": 140.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"321edbab7c5cc9845d2c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":127.42268041237114,\"y\":64.94845360824742,\"z\":1000,\"width\":1024.9484536082473,\"height\":69.27835051546391,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿Cuáles son los 5 destinos de LATAM que han tenido mayor crecimiento interanual en junio 2024 en porcentaje y cantidad de pasajeros?\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"14pt\",\"color\":\"#1f1f1f\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.28,
+          "width": 1024.95,
+          "x": 127.42,
+          "y": 64.95,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"323f50f772c819105c63\",\"layouts\":[{\"id\":0,\"position\":{\"x\":52.41379310344828,\"y\":140,\"z\":3000,\"width\":258.62068965517244,\"height\":115.86206896551724,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Tiempo.anio\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"},\"Name\":\"Tiempo.anio\",\"NativeReferenceName\":\"anio\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"anio\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"2024L\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Año'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 115.86,
+          "width": 258.62,
+          "x": 52.41,
+          "y": 140.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"c1e458f0657041066c58\",\"layouts\":[{\"id\":0,\"position\":{\"x\":52.41379310344828,\"y\":268.9655172413793,\"z\":4000,\"width\":258.62068965517244,\"height\":381.3793103448276,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Tiempo.mes_nombre\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"mes_nombre\"},\"Name\":\"Tiempo.mes_nombre\",\"NativeReferenceName\":\"mes_nombre\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tiempo\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"mes_nombre\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'06-junio'\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Mes'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 381.38,
+          "width": 258.62,
+          "x": 52.41,
+          "y": 268.97,
+          "z": 4000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-2601243843476641209387.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}]}}",
+      "displayName": "Caso de Negocio",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection49890bf091d3327d524d",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"5358bbb9b14bd09680e0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":150.51124744376278,\"y\":189.77505112474438,\"z\":1000,\"width\":988.1390593047036,\"height\":449.57055214723925,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"BUSINESS CASE\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"16pt\",\"color\":\"#1f1f1f\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"OBJETIVO:\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"Al \",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}},{\"value\":\"31 de enero de 2024\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}},{\"value\":\", el  \",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}},{\"value\":\"INDICADOR MENSUAL DEL PORCENTAJE DE BOLETOS VENDIDOS A NIVEL NACIONAL\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}},{\"value\":\" para la empresa LATAM AIRLINES tiene un \",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}},{\"value\":\"valor de 65% (semáforo amarillo)\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}},{\"value\":\". Para el \",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}},{\"value\":\"31 de diciembre de 2024\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}},{\"value\":\", se desea incrementar el valor de este indicador hasta llegar a un valor de \",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}},{\"value\":\"68% (semáforo verde).\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"ESTRATEGIA:\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"Para lograr este objetivo se plantea implementar como estrategia de marketing que todos los clientes que compren un ticket con destino a Ancash o Jaén, tripliquen la ganancia de sus millas. Esta campaña durará hasta la primera semana de diciembre 2024 y será informado al público mediante publicidad física y redes sociales. Asimismo, con el fin de atraer a los clientes que usan transporte terrestre, se aplicará nextselling y upselling como estrategias de ventas ofreciendo opciones adicionales como aumentar el peso de equipaje, tipo de asiento, menú, estatus del vuelo, vuelos a otro destino.\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"COSTO BENEFICIO:\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"El precio total de implementación de esta estrategia es de 3 millones de soles como costo único total. Se estima que al cumplir este objetivo en la fecha propuesta, la facturación adicional mensual será de $\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}},{\"value\":\"265,919\",\"textStyle\":{\"fontSize\":\"13.3333px\"}},{\"value\":\", lo cual sumaria $\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}},{\"value\":\"3,191,028\"},{\"value\":\" de dólares de facturación adicional solamente durante el primero año, posterior a la fecha de cumplimiento del objetivo.\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"13px\",\"color\":\"#000000\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 449.57,
+          "width": 988.14,
+          "x": 150.51,
+          "y": 189.78,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"89e6fc56280ae33e0c43\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"df5402f4b08bd40d5f3f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":503.44827586206895,\"y\":49.6551724137931,\"z\":2000,\"width\":301.3793103448276,\"height\":171.72413793103448,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Latam-logo_-v_(Indigo).svg06651026062587828.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 171.72,
+          "width": 301.38,
+          "x": 503.45,
+          "y": 49.66,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"366L\"}}}}}],\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-26012435613446002784377.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}]}}",
+      "displayName": "Dashboard",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection641f8f02cb24105e6bd1",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"4d5996c50b88547aab48\",\"layouts\":[{\"id\":0,\"position\":{\"x\":401.42011834319527,\"y\":190.10650887573965,\"z\":1000,\"width\":816.4733727810651,\"height\":446.8639053254438,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"gauge\",\"projections\":{\"Y\":[{\"queryRef\":\"Medidas.Participación\"}],\"TargetValue\":[{\"queryRef\":\"Medidas.Meta\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Participación\"},\"Name\":\"Medidas.Participación\",\"NativeReferenceName\":\"Participación\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Meta\"},\"Name\":\"Medidas.Meta\",\"NativeReferenceName\":\"Meta\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Participación\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"target\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Conditional\":{\"Cases\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Participación\"}},\"Right\":{\"Literal\":{\"Value\":\"0D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Participación\"}},\"Right\":{\"Literal\":{\"Value\":\"0.65D\"}}}}}},\"Value\":{\"Literal\":{\"Value\":\"'#D64550'\"}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Participación\"}},\"Right\":{\"Literal\":{\"Value\":\"0.65D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Participación\"}},\"Right\":{\"Literal\":{\"Value\":\"0.679D\"}}}}}},\"Value\":{\"Literal\":{\"Value\":\"'#EDED0C'\"}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Participación\"}},\"Right\":{\"Literal\":{\"Value\":\"0.679D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Medidas\"}},\"Property\":\"Participación\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}}},\"Value\":{\"Literal\":{\"Value\":\"'#19D130'\"}}}]}}}}}}}],\"axis\":[{\"properties\":{}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'INDICADOR MENSUAL DEL PORCENTAJE DE BOLETOS VENDIDOS A NIVEL NACIONAL POR LA LÍNEA ÁEREA LATAM AIRLINES'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"16D\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 446.86,
+          "width": 816.47,
+          "x": 401.42,
+          "y": 190.11,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"69ff177ca0c5dbe43082\",\"layouts\":[{\"id\":0,\"position\":{\"x\":55.670103092783506,\"y\":189.89690721649484,\"z\":2000,\"width\":288.8659793814433,\"height\":446.5979381443299,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"grupo04 vuelo_mercado_nacional.PERIODO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"grupo04 vuelo_mercado_nacional\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"PERIODO\"},\"Name\":\"grupo04 vuelo_mercado_nacional.PERIODO\",\"NativeReferenceName\":\"PERIODO\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"PERIODO\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"grupo04 vuelo_mercado_nacional\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"PERIODO\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'2024_01'\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 446.60,
+          "width": 288.87,
+          "x": 55.67,
+          "y": 189.90,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"e9600cebbb192b404bb0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"fdc58b989783f691847a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":60.16,\"y\":129.28,\"z\":3000,\"width\":117.76,\"height\":53.76,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(grupo04 vuelo_mercado_nacional.PERIODO)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"grupo04 vuelo_mercado_nacional\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"PERIODO\"}},\"Function\":3},\"Name\":\"Min(grupo04 vuelo_mercado_nacional.PERIODO)\",\"NativeReferenceName\":\"Primera fecha: PERIODO\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Actualizado a'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 53.76,
+          "width": 117.76,
+          "x": 60.16,
+          "y": 129.28,
+          "z": 3000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'latam-aruba1-260124.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"latam-aruba1-2601243843476641209387.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"42D\"}}}}}],\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"384L\"}}}}}]}}",
+      "displayName": "Indicador",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "a4ad0f0d06aed5e2cc26",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0f27bfe7d63d885966da\",\"layouts\":[{\"id\":0,\"position\":{\"x\":311.0756972111554,\"y\":0,\"z\":0,\"width\":968.9243027888446,\"height\":49.721115537848604,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 49.72,
+          "width": 968.92,
+          "x": 311.08,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"7339203cd011eabd633d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":127.773851590106,\"y\":98.37455830388693,\"z\":1000,\"width\":1057.243816254417,\"height\":610.6007067137809,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"INDICADOR MENSUAL DEL PORCENTAJE DE BOLETOS VENDIDOS A NIVEL NACIONAL POR LA LÍNEA ÁEREA LATAM AIRLINES\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"16pt\",\"color\":\"#1f1f1f\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Definición:\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"12pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Este indicador mide la cantidad de boletos vendidos a nivel nacional por la aerolínea Latam Airlines sobre la cantidad total de boletos vendidos a nivel nacional por todas las aerolíneas todo esto durante un periodo mensual especifico y expresado de manera porcentual. Este indicador es importante porque nos permite saber como se desempeña la empresa con respecto a otras empresas de la competencia.\",\"textStyle\":{\"fontSize\":\"12pt\",\"color\":\"#1f1f1f\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Fórmula:\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"12pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Cantidad mensual de boletos vendidos a nivel nacional por la aerolínea Latam Airlines\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"12pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"---------------------------------------------------------------------------------------------------------------------------------------------  x100\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"12pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"Cantidad total mensual de boletos vendidos a nivel nacional por todas las aerolíneas\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"12pt\",\"color\":\"#1f1f1f\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Unidades:\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"12pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"Porcentual\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"12pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Frecuencia:\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"12pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"Mensual\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"12pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Rangos:\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"12pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"                    >= 68%\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"                    >= 65% a > 68%\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"                    < 65%\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Impacto Económico:\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"Para un mercado de 60 millones de dólares mensuales, una desviación positiva de 1% de este indicador representa una facturación de 600,000 dólares mensuales adicionales.\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 610.60,
+          "width": 1057.24,
+          "x": 127.77,
+          "y": 98.37,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"ac5302b273801e0e541a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":118.72791519434628,\"y\":515.6183745583039,\"z\":2000,\"width\":107.42049469964664,\"height\":57.667844522968196,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"IMAGEN16.077987153716604416.JPG\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 57.67,
+          "width": 107.42,
+          "x": 118.73,
+          "y": 515.62,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

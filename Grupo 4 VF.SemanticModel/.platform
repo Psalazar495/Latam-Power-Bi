@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Grupo 4 VF"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1a6210f5-220b-4a5c-be85-4ae953e6c533"
+  }
+}

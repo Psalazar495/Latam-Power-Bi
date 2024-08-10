@@ -1,0 +1,1804 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.129.1229.0 (24.05)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"grupo04 aeropuertos\",\"grupo04 aviones\",\"grupo04 pasajero\",\"grupo04 tipo_cabina\",\"grupo04 vuelo_detalle\",\"grupo04 vuelo_mercado_nacional\",\"grupo04 vuelo_numero\",\"Medidas\",\"grupo04 boletos\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "es-ES",
+    "cultures": [
+      {
+        "name": "es-ES",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "grupo04_aeropuertos.ciudad": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "grupo04 aeropuertos",
+                    "ConceptualProperty": "ciudad"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Ciudad": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "CIUDAD DESTINO": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medidas.boletos_count": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Boletos_COUNT"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Boletos vendidos 2024": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "BOLETOS VENDIDOS": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medidas.boletos_count_growth_bus_yoy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Boletos_COUNT_Growth_BUS_YoY"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Cabina Business": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medidas.boletos_count_growth_eco_yoy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Boletos_COUNT_Growth_ECO_YoY"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Cabina Econnómica": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medidas.boletos_count_growth_yoy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Boletos_COUNT_Growth_YoY"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Crecimiento interanual %": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medidas.boletos_count_growth_yoy_num": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Boletos_COUNT_Growth_YoY_num"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Crecimiento interanual": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medidas.boletos_count_py": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Boletos_COUNT_PY"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Boletos vendidos 2023": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "8d4c2519-fb51-4910-ba73-034cf17bbad8",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "avion_id",
+        "fromTable": "grupo04 vuelo_detalle",
+        "toColumn": "avion_id",
+        "toTable": "grupo04 aviones"
+      },
+      {
+        "name": "97ddedb8-6188-4dc2-bd37-23e7bd2c06ce",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "vuelo_numero_id",
+        "fromTable": "grupo04 vuelo_detalle",
+        "toColumn": "vuelo_numero_id",
+        "toTable": "grupo04 vuelo_numero"
+      },
+      {
+        "name": "a6117d7b-081f-434c-9ad3-996185aff129",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "aeropuerto_destino_id",
+        "fromTable": "grupo04 vuelo_numero",
+        "toColumn": "aeropuerto_id",
+        "toTable": "grupo04 aeropuertos"
+      },
+      {
+        "name": "cdb095ce-7b7b-4211-a83b-958091a395c7",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "aeropuerto_origen_id",
+        "fromTable": "grupo04 vuelo_numero",
+        "isActive": false,
+        "toColumn": "aeropuerto_id",
+        "toTable": "grupo04 aeropuertos"
+      },
+      {
+        "name": "67ec89a7-3e47-4a39-8df7-c4632d33dbef",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "pasajero_id",
+        "fromTable": "grupo04 boletos",
+        "toColumn": "pasajero_id",
+        "toTable": "grupo04 pasajero"
+      },
+      {
+        "name": "b5099774-7461-48c3-aba9-29bded3ba907",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "tipo_cabina_id",
+        "fromTable": "grupo04 boletos",
+        "toColumn": "tipo_cabina_id",
+        "toTable": "grupo04 tipo_cabina"
+      },
+      {
+        "name": "b16b77e1-4d3d-4f57-8bab-21f0841f63ae",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "vuelo_id",
+        "fromTable": "grupo04 boletos",
+        "toColumn": "vuelo_id",
+        "toTable": "grupo04 vuelo_detalle"
+      },
+      {
+        "name": "4e41e0e8-024e-4d5f-a414-769cc8cb860b",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "PERIODO",
+        "fromTable": "grupo04 boletos",
+        "toColumn": "PERIODO",
+        "toTable": "grupo04 vuelo_mercado_nacional"
+      },
+      {
+        "name": "52202569-9669-61bb-df5a-38dab79a360c",
+        "fromColumn": "fecha_compra",
+        "fromTable": "grupo04 boletos",
+        "toColumn": "Date",
+        "toTable": "Tiempo"
+      }
+    ],
+    "sourceQueryCulture": "es-US",
+    "tables": [
+      {
+        "name": "grupo04 aeropuertos",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "aeropuerto_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isNullable": false,
+            "lineageTag": "aaaba48c-98c2-437a-be6e-991f7bb05cf4",
+            "sourceColumn": "aeropuerto_id",
+            "sourceProviderType": "nvarchar(400)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nombre_aeropuerto",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "822cdf58-95dd-4517-b319-905ac91fd4c9",
+            "sourceColumn": "nombre_aeropuerto",
+            "sourceProviderType": "nvarchar(400)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ciudad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2b1703d7-33c8-4c6e-a846-9b7ccda8e088",
+            "sourceColumn": "ciudad",
+            "sourceProviderType": "nvarchar(400)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "departamento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c671fbba-db0a-4fa9-ae11-6b71083fbe51",
+            "sourceColumn": "departamento",
+            "sourceProviderType": "nvarchar(400)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "1a46de7d-060c-4f1f-9baa-746e326e6811",
+        "partitions": [
+          {
+            "name": "grupo04 aeropuertos",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Sql.Database(\"pucp.database.windows.net\", \"pucp\"),",
+                "    grupo04_aeropuertos = Origen{[Schema=\"grupo04\",Item=\"aeropuertos\"]}[Data]",
+                "in",
+                "    grupo04_aeropuertos"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "grupo04 aviones",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "avion_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isNullable": false,
+            "lineageTag": "d37f28e4-124a-45e8-acfe-37d0ca0e6dff",
+            "sourceColumn": "avion_id",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "modelo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "01165e41-bab0-4030-a3b9-b29e5cbdd4b8",
+            "sourceColumn": "modelo",
+            "sourceProviderType": "varchar(400)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "capacidad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "23b0c537-48ec-4a0b-92ce-d720fe79b0f2",
+            "sourceColumn": "capacidad",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "d0ae3cd8-605d-4c55-be69-a50878e1439e",
+        "partitions": [
+          {
+            "name": "grupo04 aviones",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Sql.Database(\"pucp.database.windows.net\", \"pucp\"),",
+                "    grupo04_aviones = Origen{[Schema=\"grupo04\",Item=\"aviones\"]}[Data]",
+                "in",
+                "    grupo04_aviones"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "grupo04 pasajero",
+        "columns": [
+          {
+            "name": "pasajero_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isNullable": false,
+            "lineageTag": "3764cde4-3ff7-4b3d-b59b-cfce9073637c",
+            "sourceColumn": "pasajero_id",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nombre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e3334d31-aa18-4b00-9328-8cb551018959",
+            "sourceColumn": "nombre",
+            "sourceProviderType": "nvarchar(400)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo_documento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ae57ab79-a749-40f3-8af7-5d668d2f2a00",
+            "sourceColumn": "tipo_documento",
+            "sourceProviderType": "nvarchar(400)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "numero_documento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b1279acc-5b66-406f-b2d4-59dc09a2393e",
+            "sourceColumn": "numero_documento",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sexo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ae042c8e-6ec6-413d-b5ca-d68434eb5616",
+            "sourceColumn": "sexo",
+            "sourceProviderType": "nvarchar(400)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nacionalidad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "__PBI_SemanticLinks",
+                "value": "[{\"LinkTarget\":{\"TableName\":\"grupo04 pasajero\",\"TableItemName\":\"Nacionalidad agrupada\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1fbcc068-3cfd-46c0-b1f2-ab29dfdfe7dc",
+            "sourceColumn": "nacionalidad",
+            "sourceProviderType": "nvarchar(400)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Nacionalidad agrupada",
+            "annotations": [
+              {
+                "name": "GroupingDesignState",
+                "value": "{\"Version\":0,\"Sources\":[{\"Name\":\"g\",\"Entity\":\"grupo04 pasajero\"}],\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"nacionalidad\"}}],\"GroupItems\":[{\"DisplayName\":\"(En blanco)\",\"BlankDefaultPlaceholder\":true},{\"DisplayName\":\"Extranjero\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"nacionalidad\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Argentina'\"}}],[{\"Literal\":{\"Value\":\"'Chilena'\"}}]]}}},{\"DisplayName\":\"Nacional\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"nacionalidad\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Peruana'\"}}]]}}}]}"
+              },
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "SWITCH(",
+              "\tTRUE,",
+              "\tISBLANK('grupo04 pasajero'[nacionalidad]),",
+              "\t\"(En blanco)\",",
+              "\t'grupo04 pasajero'[nacionalidad] IN {\"Argentina\",",
+              "\t\t\"Chilena\"},",
+              "\t\"Extranjero\",",
+              "\t'grupo04 pasajero'[nacionalidad] IN {\"Peruana\"},",
+              "\t\"Nacional\",",
+              "\t'grupo04 pasajero'[nacionalidad]",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "GroupingMetadata",
+                "type": "json",
+                "value": {
+                  "groupedColumns": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "grupo04 pasajero"
+                          }
+                        },
+                        "Property": "nacionalidad"
+                      }
+                    }
+                  ],
+                  "version": 0
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "6fc24541-2df3-43f8-b69b-47f309d96565",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "8725b804-359f-453d-a80c-33f17461675b",
+        "partitions": [
+          {
+            "name": "grupo04 pasajero",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Sql.Database(\"pucp.database.windows.net\", \"pucp\"),",
+                "    grupo04_pasajero = Origen{[Schema=\"grupo04\",Item=\"pasajero\"]}[Data]",
+                "in",
+                "    grupo04_pasajero"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "grupo04 tipo_cabina",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "tipo_cabina_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isNullable": false,
+            "lineageTag": "7813da3d-2fc1-4d5a-acb9-0d8680352fcf",
+            "sourceColumn": "tipo_cabina_id",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nombre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "200f1dbd-4bd2-45ac-9c1d-2f37eb4eae34",
+            "sourceColumn": "nombre",
+            "sourceProviderType": "nvarchar(400)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "114efffa-c9f2-4d3c-b647-2d493a7348a0",
+        "partitions": [
+          {
+            "name": "grupo04 tipo_cabina",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Sql.Database(\"pucp.database.windows.net\", \"pucp\"),",
+                "    grupo04_tipo_cabina = Origen{[Schema=\"grupo04\",Item=\"tipo_cabina\"]}[Data]",
+                "in",
+                "    grupo04_tipo_cabina"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "grupo04 vuelo_detalle",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "vuelo_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isNullable": false,
+            "lineageTag": "26ef81da-a61f-4d35-8d84-e99897ec4346",
+            "sourceColumn": "vuelo_id",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "vuelo_numero_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isNullable": false,
+            "lineageTag": "266b35b8-0853-46df-a221-2bfb5d887122",
+            "sourceColumn": "vuelo_numero_id",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fecha_inicio_real",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "742c46d6-5751-495e-b55e-ec2c23f068a8",
+            "sourceColumn": "fecha_inicio_real",
+            "sourceProviderType": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hora_inicio_real",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "a22fb41f-9e97-4683-92d0-531a8465b9be",
+            "sourceColumn": "hora_inicio_real",
+            "sourceProviderType": "time",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fecha_llegada_real",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "1099766e-c375-4edb-97cf-d3b72221ac59",
+            "sourceColumn": "fecha_llegada_real",
+            "sourceProviderType": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hora_llegada_real",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "7d8c955d-0612-481a-8db5-701b73980721",
+            "sourceColumn": "hora_llegada_real",
+            "sourceProviderType": "time",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "avion_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4e405b92-8511-4cf7-a447-5d1a76b46472",
+            "sourceColumn": "avion_id",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "f62615f6-8e80-4a69-913f-01258a135662",
+        "partitions": [
+          {
+            "name": "grupo04 vuelo_detalle",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Sql.Database(\"pucp.database.windows.net\", \"pucp\"),",
+                "    grupo04_vuelo_detalle = Origen{[Schema=\"grupo04\",Item=\"vuelo_detalle\"]}[Data]",
+                "in",
+                "    grupo04_vuelo_detalle"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "grupo04 vuelo_mercado_nacional",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "periodo_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "isNullable": false,
+            "lineageTag": "70cc6ab9-5c7f-4394-b210-8e3285455902",
+            "sourceColumn": "periodo_id",
+            "sourceProviderType": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cantidad_boletos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ef1caeaf-43d5-48ab-843a-f61fa83456b0",
+            "sourceColumn": "cantidad_boletos",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nombre_mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0b85f1a8-f00d-4f13-82d1-ac6ef7b94187",
+            "sourceColumn": "nombre_mes",
+            "sourceProviderType": "nvarchar(400)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ANIO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f4f7491b-729d-4b76-93a4-2ad157fb2ee6",
+            "sourceColumn": "ANIO",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PERIODO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "01548b37-0f6c-4295-a45e-7350a9c05f45",
+            "sortByColumn": "periodo_id",
+            "sourceColumn": "PERIODO",
+            "sourceProviderType": "varchar(50)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "valor_mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fb13425f-0371-429a-8f8e-8f80aff5fe5a",
+            "sourceColumn": "valor_mes",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "6655b807-9358-4c2b-b104-4cf53af294b5",
+        "partitions": [
+          {
+            "name": "grupo04 vuelo_mercado_nacional",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Sql.Database(\"pucp.database.windows.net\", \"pucp\"),",
+                "    grupo04_vuelo_mercado_nacional = Origen{[Schema=\"grupo04\",Item=\"vuelo_mercado_nacional\"]}[Data]",
+                "in",
+                "    grupo04_vuelo_mercado_nacional"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "grupo04 vuelo_numero",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "vuelo_numero_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isNullable": false,
+            "lineageTag": "3ca2e118-c04f-4028-b192-7adb8a57d518",
+            "sourceColumn": "vuelo_numero_id",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hora_inicio_programada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "2a61f0e5-2083-42bf-97a5-ebe18e0d2fc5",
+            "sourceColumn": "hora_inicio_programada",
+            "sourceProviderType": "time",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hora_llegada_programada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "eb218f3f-9819-4706-a327-93ca6f474420",
+            "sourceColumn": "hora_llegada_programada",
+            "sourceProviderType": "time",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "aeropuerto_origen_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5e67b22c-3030-43ed-a012-68f7a071f9a0",
+            "sourceColumn": "aeropuerto_origen_id",
+            "sourceProviderType": "nvarchar(400)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "aeropuerto_destino_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2959b811-d285-4715-bb9e-0ed20b51d562",
+            "sourceColumn": "aeropuerto_destino_id",
+            "sourceProviderType": "nvarchar(400)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "71db6ca1-c46f-4a24-af63-8af3f2c63063",
+        "partitions": [
+          {
+            "name": "grupo04 vuelo_numero",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Sql.Database(\"pucp.database.windows.net\", \"pucp\"),",
+                "    grupo04_vuelo_numero = Origen{[Schema=\"grupo04\",Item=\"vuelo_numero\"]}[Data]",
+                "in",
+                "    grupo04_vuelo_numero"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Tiempo",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "b65f56927330461c85ec82d96c165752"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isDataTypeInferred": true,
+            "isKey": true,
+            "isNameInferred": true,
+            "lineageTag": "87eb0f00-0f44-4ea6-b109-c45879c3a67c",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "anio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "4e94f868-07c3-4729-b922-86876762caba",
+            "sourceColumn": "[anio]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "0646b335-5470-4090-8e3e-be997ad09665",
+            "sourceColumn": "[mes]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "anio_mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "5e23f5a4-1a14-4e54-b379-dabfad68e14f",
+            "sourceColumn": "[anio_mes]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "anio_trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "88337e6b-9fbd-40a1-a5b9-4eacc1fde96a",
+            "sourceColumn": "[anio_trimestre]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "6e1c2f81-0ea3-4490-bafc-6401a67b4c67",
+            "sourceColumn": "[dia]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "mes_nombre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "93a15e59-1b71-481a-94d2-6deeae7c10e2",
+            "sourceColumn": "[mes_nombre]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "dia_semana_nombre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "79c91d5c-fbeb-4120-9b59-93ba4b7fa041",
+            "sourceColumn": "[dia_semana_nombre]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "a760dac7-d710-4980-8e83-74b263cc87e9",
+            "sourceColumn": "[trimestre]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "dataCategory": "Time",
+        "lineageTag": "2a95751d-3572-4730-bf9a-ed5322f336d8",
+        "partitions": [
+          {
+            "name": "Tiempo",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "ADDCOLUMNS( ",
+                "CALENDARAUTO(),",
+                "\"anio\",YEAR([Date]),",
+                "\"mes\",MONTH([Date]),",
+                "\"anio_mes\", YEAR([Date]) & \"-\" & RIGHT(CONVERT(100+MONTH([Date]),STRING),2),",
+                "\"anio_trimestre\", YEAR([Date]) & \"-\" & QUARTER([Date]),",
+                "\"dia\",DAY([Date]),",
+                "\"mes_nombre\",RIGHT(CONVERT(100+MONTH([Date]),STRING),2) & \"-\" & FORMAT([Date],\"MMMM\"),",
+                "\"dia_semana_nombre\", RIGHT(CONVERT(100+WEEKDAY([Date]),STRING),2) & \"-\" & FORMAT([Date],\"dddd\"),",
+                "\"trimestre\",QUARTER([Date])",
+                ") "
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_237912a4-ae48-4425-9034-e0bc09b48ead",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "9dc0fdbe-e271-4467-a229-77cb6b5dd3c5",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "b61a8d9b-9829-43f1-8924-82c5b7927a7e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "2efca1ab-7348-4686-b0e0-f5d8ec74aaf9",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "13e886d2-a905-455e-a6c9-eeb7ffb48f23",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "4c4561c1-eb6a-46a0-96e2-eda308dcc016",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isHidden": true,
+            "lineageTag": "bd3f5f36-6476-462b-9434-3fa31d2f2942",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "b3688e89-b6fc-4716-8f77-f27a48ff931c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "0c2c8ecf-11f8-47dd-b800-92aca04d2f6a",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "a195999d-a5cd-4e03-9cdc-459b6b313524",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "e49b67f6-04f3-4ed5-b877-056818e68207",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "02a9991c-f849-446b-a91f-c1718f677662",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "1366f478-3605-42cd-b1ef-114d5ff7a321"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "8c25ec3a-fcb0-4d56-9c7a-c88e0a3da2e4",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_237912a4-ae48-4425-9034-e0bc09b48ead",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Medidas",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "lineageTag": "45e611d8-6147-42cd-a6dd-2e99b53fbc7a",
+        "measures": [
+          {
+            "name": "Boletos_COUNT",
+            "expression": "DISTINCTCOUNT('grupo04 boletos'[boleto_id])",
+            "formatString": "0",
+            "lineageTag": "c901e0c9-f47c-46cc-abdc-53cbbfdd8c50"
+          },
+          {
+            "name": "Boletos_COUNT_Growth_YoY",
+            "expression": "DIVIDE([Boletos_COUNT] - [Boletos_COUNT_PY], [Boletos_COUNT_PY],1)",
+            "formatString": "#,0\\ %;-#,0\\ %;#,0\\ %",
+            "lineageTag": "18dec7fd-3d16-4746-935a-d5b6881ca166"
+          },
+          {
+            "name": "Facturacion_SUMA",
+            "expression": "SUM('grupo04 boletos'[precio_final])",
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "lineageTag": "6df2c867-7791-4ff4-8fff-1f8486b4edb4"
+          },
+          {
+            "name": "Facturacion_SUMA_BUSINESS",
+            "expression": "CALCULATE( [Facturacion_SUMA], 'grupo04 tipo_cabina'[tipo_cabina_id] = 2)",
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "lineageTag": "e998d24e-bbda-4fc6-b8d9-f4c7e17b610a"
+          },
+          {
+            "name": "Facturacion_SUMA_ECONOMICA",
+            "expression": "CALCULATE( [Facturacion_SUMA], 'grupo04 tipo_cabina'[tipo_cabina_id] = 1)",
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "lineageTag": "78f43eb3-3e7a-4aa3-98c6-bee67dc75d6e"
+          },
+          {
+            "name": "Participación",
+            "expression": "[Boletos_COUNT] / SUM('grupo04 vuelo_mercado_nacional'[cantidad_boletos])",
+            "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+            "lineageTag": "c2710075-89bb-4b8c-a4b2-c5f6834c5303"
+          },
+          {
+            "name": "Vuelos_COUNT",
+            "expression": "DISTINCTCOUNT('grupo04 vuelo_detalle'[vuelo_id])",
+            "formatString": "0",
+            "lineageTag": "084e406c-f910-498c-b7ab-50853e75c049"
+          },
+          {
+            "name": "Meta",
+            "expression": "0.68",
+            "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+            "lineageTag": "8cb6483c-1868-4051-b7cf-125a40f4069d"
+          },
+          {
+            "name": "Part Min",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "0.65 ",
+            "lineageTag": "f436b90a-6635-49d6-ad11-a1fb705eaffa"
+          },
+          {
+            "name": "Boletos_COUNT_PY",
+            "expression": "CALCULATE([Boletos_COUNT], DATEADD(Tiempo[Date],-1,YEAR))",
+            "formatString": "0",
+            "lineageTag": "b10d61fb-9b22-4f1e-b755-052795914ca7"
+          },
+          {
+            "name": "Boletos_Count_BUSINESS",
+            "expression": "CALCULATE( [Boletos_COUNT], 'grupo04 tipo_cabina'[tipo_cabina_id] = 2)",
+            "formatString": "0",
+            "lineageTag": "b892fd77-6d40-4dd0-a9bd-8c62fa782400"
+          },
+          {
+            "name": "Boletos_Count_Econo",
+            "expression": "CALCULATE( [Boletos_COUNT], 'grupo04 tipo_cabina'[tipo_cabina_id] = 1)",
+            "formatString": "0",
+            "lineageTag": "4f6b730e-9d47-4096-95a2-b4538e67d54d"
+          },
+          {
+            "name": "Boletos_COUNT_Growth_YoY_num",
+            "expression": "[Boletos_COUNT] - [Boletos_COUNT_PY]",
+            "formatString": "0",
+            "lineageTag": "46fd5d79-4986-41ad-bfee-cbf4ce085d76"
+          },
+          {
+            "name": "Boletos_BUS_COUNT_6M",
+            "expression": "CALCULATE([Boletos_Count_BUSINESS], DATEADD(Tiempo[Date],-1,YEAR))",
+            "formatString": "0",
+            "lineageTag": "dc3e5e8d-19b3-40cb-9aed-f9c5f21ab71d"
+          },
+          {
+            "name": "Boletos_COUNT_Growth_BUS_YoY",
+            "expression": "DIVIDE([Boletos_Count_BUSINESS] - [Boletos_BUS_COUNT_6M], [Boletos_BUS_COUNT_6M],1)",
+            "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+            "lineageTag": "4a803849-252c-4aa3-976b-cedf7258d180"
+          },
+          {
+            "name": "Boletos_COUNT_Growth_ECO_YoY",
+            "expression": "DIVIDE([Boletos_Count_Econo] - [Boletos_ECO_COUNT_6M], [Boletos_ECO_COUNT_6M],1)",
+            "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+            "lineageTag": "e7b9ef76-0a05-41a6-bb34-2b432f891e7a"
+          },
+          {
+            "name": "Boletos_ECO_COUNT_6M",
+            "expression": "CALCULATE([Boletos_Count_Econo], DATEADD(Tiempo[Date],-1,YEAR))",
+            "formatString": "0",
+            "lineageTag": "737cce61-924b-4278-b796-88069e016a32"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Medidas",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Columna1 = _t]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(Origen,{{\"Columna1\", type text}}),",
+                "    #\"Columnas quitadas\" = Table.RemoveColumns(#\"Tipo cambiado\",{\"Columna1\"})",
+                "in",
+                "    #\"Columnas quitadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "grupo04 boletos",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "boleto_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isNullable": false,
+            "lineageTag": "ca3e6927-6a6d-44df-8042-d05d260f6b5d",
+            "sourceColumn": "boleto_id",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "vuelo_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isNullable": false,
+            "lineageTag": "93eaf4bd-6603-48fe-9a16-389a9842dcaf",
+            "sourceColumn": "vuelo_id",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "pasajero_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isNullable": false,
+            "lineageTag": "adba0498-b66a-49e9-9493-d48cfaeab3cd",
+            "sourceColumn": "pasajero_id",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo_cabina_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b3926cd5-1397-4b60-a8ea-9f47f3e1ad4c",
+            "sourceColumn": "tipo_cabina_id",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "precio_final",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "349d6be8-5ffa-4c94-a2e5-6626460dc4bf",
+            "sourceColumn": "precio_final",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "fecha_compra",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "a27f13cb-69e4-4d80-8389-3771ef7ca13a",
+            "sourceColumn": "fecha_compra",
+            "sourceProviderType": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nombre_mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "668c6e7a-5a55-4b30-98a6-22c13abb6c7b",
+            "sourceColumn": "nombre_mes",
+            "sourceProviderType": "nvarchar(400)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ANIO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c5557fef-d90f-4f72-905f-9129148fea5f",
+            "sourceColumn": "ANIO",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "PERIODO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "76637f58-9238-458f-8b2e-527c2aff0f10",
+            "sourceColumn": "PERIODO",
+            "sourceProviderType": "varchar(50)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "valor_mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a2c428ba-4199-498d-bd02-e9e408c2ac2e",
+            "sourceColumn": "valor_mes",
+            "sourceProviderType": "varchar(50)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "10ba17f4-61cd-473d-b613-9350767dbad2",
+        "partitions": [
+          {
+            "name": "grupo04 boletos",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Sql.Database(\"pucp.database.windows.net\", \"pucp\"),",
+                "    grupo04_boletos = Origen{[Schema=\"grupo04\",Item=\"boletos\"]}[Data]",
+                "in",
+                "    grupo04_boletos"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

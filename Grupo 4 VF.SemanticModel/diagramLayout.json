@@ -1,0 +1,152 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 230,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1162.849755394077,
+            "y": 437.01816821656826
+          },
+          "nodeIndex": "grupo04 aeropuertos",
+          "nodeLineageTag": "1a46de7d-060c-4f1f-9baa-746e326e6811",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 699.11060977186162,
+            "y": 40.7746476870642
+          },
+          "nodeIndex": "grupo04 aviones",
+          "nodeLineageTag": "d0ae3cd8-605d-4c55-be69-a50878e1439e",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 223.85574103499812,
+            "y": 477.13497031006131
+          },
+          "nodeIndex": "grupo04 pasajero",
+          "nodeLineageTag": "8725b804-359f-453d-a80c-33f17461675b",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 95.485833645004959,
+            "y": -10
+          },
+          "nodeIndex": "grupo04 tipo_cabina",
+          "nodeLineageTag": "114efffa-c9f2-4d3c-b647-2d493a7348a0",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 588.66947883302191,
+            "y": 248.02020757098978
+          },
+          "nodeIndex": "grupo04 vuelo_detalle",
+          "nodeLineageTag": "f62615f6-8e80-4a69-913f-01258a135662",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 10,
+            "y": 294.39196067327782
+          },
+          "nodeIndex": "grupo04 vuelo_mercado_nacional",
+          "nodeLineageTag": "6655b807-9358-4c2b-b104-4cf53af294b5",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 878.67382175457556,
+            "y": 352.19738570532036
+          },
+          "nodeIndex": "grupo04 vuelo_numero",
+          "nodeLineageTag": "71db6ca1-c46f-4a24-af63-8af3f2c63063",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1418.849755394077,
+            "y": 679.56748515503068
+          },
+          "nodeIndex": "Tiempo",
+          "nodeLineageTag": "2a95751d-3572-4730-bf9a-ed5322f336d8",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1323.849755394077,
+            "y": 19.567485155030681
+          },
+          "nodeIndex": "Medidas",
+          "nodeLineageTag": "45e611d8-6147-42cd-a6dd-2e99b53fbc7a",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1802.849755394077,
+            "y": 205.56748515503068
+          },
+          "nodeIndex": "grupo04 boletos",
+          "nodeLineageTag": "10ba17f4-61cd-473d-b613-9350767dbad2",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}
