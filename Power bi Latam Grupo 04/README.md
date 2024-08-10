@@ -2,29 +2,29 @@
 
 ## CREACIÓN DE TABLAS, PRIMARY KEY Y FOREIGN KEY
 
-create table grupo04.aeropuertos
-(
+  `      create table grupo04.aeropuertos
+    (
 	aeropuerto_id	     	nvarchar(400)	not null,
 	nombre_aeropuerto		nvarchar(400),
 	ciudad	      			nvarchar(400),			
 	departamento            nvarchar(400)
-)
+    )`
 
-create table grupo04.vuelo_mercado_nacional
-(
+        create table grupo04.vuelo_mercado_nacional
+    (
 	periodo_id					nvarchar(400)  	not null,
 	cantidad_pasajeros          integer
 	)
 
-	create table grupo04.aviones
-(
+	    create table grupo04.aviones
+    (
 	avion_id     integer not null identity,
 	modelo       varchar(400), 
 	capacidad  	 integer
 		)
 
 		create table grupo04.vuelo_numero
-(
+    (
 	vuelo_numero_id           integer not null,                 
 	hora_inicio_programada    time,
 	hora_llegada_programada   time,
@@ -32,8 +32,8 @@ create table grupo04.vuelo_mercado_nacional
 	aeropuerto_destino_id     nvarchar(400)
 			)
 
-			create table grupo04.vuelo_detalle
-(
+		create table grupo04.vuelo_detalle
+    (
 	vuelo_id                  integer not null identity,
 	vuelo_numero_id           integer not null,                 
 	fecha_inicio_real		  date,
