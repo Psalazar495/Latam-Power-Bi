@@ -1,6 +1,6 @@
 # Portafolio Grupo 4 Latam
 
-## CREaCIÓN DE TABLAS, PRIMARY KEY Y FOREIGN KEY
+## CREACIÓN DE TABLAS, PRIMARY KEY Y FOREIGN KEY
 
 create table grupo04.aeropuertos
 (
