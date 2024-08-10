@@ -1,6 +1,6 @@
 # Portafolio Grupo 4 Latam
 
-## CRECIÓN DE TABLAS, PRIMARY KEY Y FOREIGN KEY
+## CREaCIÓN DE TABLAS, PRIMARY KEY Y FOREIGN KEY
 
 create table grupo04.aeropuertos
 (
@@ -71,6 +71,7 @@ create table grupo04.vuelo_mercado_nacional
 		)
 
 ### PRIMARY KEY
+
 alter table grupo04.aeropuertos add constraint pk_grupo04_aeropuertos
 primary key (aeropuerto_id)
 
